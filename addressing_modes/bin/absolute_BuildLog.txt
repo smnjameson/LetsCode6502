@@ -1,0 +1,12 @@
+parsing
+flex pass 1
+Output pass
+Writing prg file: C:\Users\Simon\Desktop\Lets Code 6502\addressing_modes\bin\absolute.prg
+
+Memory Map
+----------
+Default-segment:
+  $2000-$2086 Default
+
+Writing Vice symbol file: C:\Users\Simon\Desktop\Lets Code 6502\addressing_modes\bin\absolute.vs
+Writing Symbol file: absolute.sym
