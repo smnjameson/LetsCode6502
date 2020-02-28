@@ -1,0 +1,48 @@
+<C64debugger version="1.0">
+   <Sources values="INDEX,FILE">
+      0,KickAss.jar:/include/autoinclude.asm
+      1,C:\Users\Simon\Desktop\Lets Code 6502\basics\start.asm
+   </Sources>
+
+   <Segment name="Default" dest="" values="START,END,FILE_IDX,LINE1,COL1,LINE2,COL2">
+      <Block name="Basic">
+         $0801,$0802,0,56,2,56,6
+         $0803,$0804,0,57,5,57,9
+         $0805,$0805,0,58,5,58,9
+         $0806,$080a,0,59,2,59,6
+         $080b,$080b,0,60,2,60,6
+         $080c,$080d,0,62,5,62,9
+      </Block>
+      <Block name="Unnamed">
+         $c000,$c001,1,5,2,5,4
+         $c002,$c004,1,6,2,6,4
+         $c005,$c007,1,7,2,7,4
+         $c008,$c009,1,9,2,9,4
+         $c00a,$c00b,1,10,2,10,4
+         $c00c,$c00e,1,12,2,12,4
+         $c00f,$c011,1,13,2,13,4
+         $c012,$c014,1,14,2,14,4
+         $c015,$c017,1,15,2,15,4
+         $c018,$c018,1,16,2,16,4
+         $c019,$c01a,1,17,2,17,4
+         $c01b,$c01b,1,19,2,19,4
+         $c01c,$c01c,1,20,2,20,4
+         $c01d,$c01e,1,21,2,21,4
+         $c01f,$c020,1,22,2,22,4
+         $c021,$c021,1,24,2,24,4
+         $c022,$c022,1,25,2,25,4
+      </Block>
+   </Segment>
+
+   <Labels values="SEGMENT,ADDRESS,NAME">
+      Default,$080c,upstartEnd
+      Default,$c00c,Loop
+   </Labels>
+
+   <Breakpoints values="SEGMENT,ADDRESS,ARGUMENT">
+   </Breakpoints>
+
+   <Watchpoints values="SEGMENT,ADDRESS1,ADDRESS2,ARGUMENT">
+   </Watchpoints>
+
+</C64debugger>

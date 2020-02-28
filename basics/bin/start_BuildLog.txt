@@ -1,0 +1,16 @@
+User Arguments: afo=true
+parsing
+flex pass 1
+flex pass 2
+Output pass
+Writing prg file: C:\Users\Simon\Desktop\Lets Code 6502\basics\bin\start.prg
+
+Memory Map
+----------
+Default-segment:
+  $0801-$080d Basic
+  $080e-$080d Basic End
+  $c000-$c022 Unnamed
+
+Writing Vice symbol file: C:\Users\Simon\Desktop\Lets Code 6502\basics\bin\start.vs
+Writing Symbol file: start.sym
