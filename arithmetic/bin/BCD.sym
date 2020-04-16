@@ -1,0 +1,7 @@
+.label AddScore=$88a
+.label Score02=$fe
+.label Entry=$80e
+.label TEMP=$ff
+.label Score00=$fc
+.label Score01=$fd
+.label ScoreVector=$fa
